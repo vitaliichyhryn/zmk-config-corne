@@ -22,6 +22,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        gam_layer {
+            bindings = <&tog 4>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -79,6 +89,15 @@
 &kp LSHFT  &kp A  &kp S  &kp D    &kp F    &kp G        &kp H      &kp J     &kp K      &kp L    &kp SEMI  &trans
 &kp LCTRL  &kp Z  &kp X  &kp C    &kp V    &kp B        &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
                          &kp ESC  &kp TAB  &kp SPACE    &kp ENTER  &kp BSPC  &kp DEL
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
