@@ -28,7 +28,7 @@
         gam_layer {
             bindings = <&tog 4>;
             key-positions = <38 39>;
-            layers = <0>;
+            layers = <0 4>;
         };
     };
 
