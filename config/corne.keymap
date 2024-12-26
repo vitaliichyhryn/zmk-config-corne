@@ -60,7 +60,7 @@
         sym {
             bindings = <
 &trans  &kp HASH       &kp AT            &kp MINUS  &kp PLUS   &trans       &trans             &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL     &trans
-&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &kp EQUAL  &kp UNDER    &kp DOUBLE_QUOTES  &kp UNDER     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &kp EQUAL  &kp UNDER    &kp DOUBLE_QUOTES  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
 &trans  &kp PIPE       &kp AMPS          &kp SLASH  &kp ASTRK  &trans       &trans             &kp CARET     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR   &trans
                                          &trans     &trans     &trans       &trans             &trans        &trans
             >;
