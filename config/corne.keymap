@@ -58,19 +58,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans         &trans       &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans      &trans             &trans           &trans       &trans    &trans  &trans    &trans         &trans       &trans     &trans
+&trans  &kp K_PREV  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT   &trans    &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans
+&trans  &kp K_UNDO  &kp K_CUT          &kp K_COPY       &kp K_PASTE  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
+                                       &trans           &trans       &trans    &trans  &trans    &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp AT         &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp UNDER      &kp EXCL   &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &trans
-&trans  &kp HASH       &kp MINUS      &kp PLUS          &kp EQUAL         &kp COLON      &kp CARET  &kp DOLLAR    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE   &trans
-&trans  &kp BACKSLASH  &kp SLASH      &kp STAR          &kp COLON         &kp PERCENT    &kp AMPS   &kp PIPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE          &trans
-                                      &trans            &trans            &trans         &trans     &trans        &trans
+&kp  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp MINUS  &kp PLUS   &kp GRAVE    &kp PERCENT  &kp QUESTION      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL           &kp
+&kp  &kp LESS_THAN     &kp GREATER_THAN   &kp COLON  &kp EQUAL  &kp UNDER    &kp TILDE    &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp
+&kp  &kp PIPE          &kp AMPS           &kp SLASH  &kp ASTRK  &kp HASH     &kp AT       &kp CARET         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR         &kp
+                                          &kp        &kp        &kp          &kp          &kp               &kp
             >;
         };
 
