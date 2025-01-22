@@ -50,19 +50,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans        &trans            &trans        &trans    &trans  &trans    &trans         &trans       &trans     &trans
-&trans  &trans  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &trans    &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans
-&trans  &trans  &kp K_VOL_DN  &kp K_MUTE        &kp K_VOL_UP  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
-                              &trans            &trans        &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans         &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
+                        &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp HASH   &kp LESS_THAN  &kp GREATER_THAN  &kp AT     &trans       &trans             &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL    &trans
-&trans  &kp COLON  &kp PLUS       &kp MINUS         &kp EQUAL  &kp UNDER    &kp DOUBLE_QUOTES  &kp COMMA     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &trans
-&trans  &kp PIPE   &kp ASTRK      &kp SLASH         &kp AMPS   &kp TILDE    &kp PERCENT        &kp CARET     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &trans
-                                  &trans            &trans     &trans       &trans             &trans        &trans
+&trans  &kp QUESTION   &kp PLUS   &kp MINUS  &kp EXCL          &trans       &trans            &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT      &trans
+&trans  &kp LESS_THAN  &kp COLON  &kp EQUAL  &kp GREATER_THAN  &kp UNDER    &kp SINGLE_QUOTE  &kp COMMA  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &trans
+&trans  &kp PIPE       &kp ASTRK  &kp SLASH  &kp AMPS          &kp TILDE    &kp PERCENT       &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &trans
+                                  &trans     &trans            &trans       &trans            &trans     &trans
             >;
         };
 
