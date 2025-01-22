@@ -59,10 +59,10 @@
 
         sym {
             bindings = <
-&trans  &kp QUESTION   &kp PLUS   &kp MINUS  &kp EXCL          &trans       &trans            &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT      &trans
-&trans  &kp LESS_THAN  &kp COLON  &kp EQUAL  &kp GREATER_THAN  &kp UNDER    &kp SINGLE_QUOTE  &kp COMMA  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &trans
-&trans  &kp PIPE       &kp ASTRK  &kp SLASH  &kp AMPS          &kp TILDE    &kp PERCENT       &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &trans
-                                  &trans     &trans            &trans       &trans            &trans     &trans
+&trans  &kp QUESTION   &kp PLUS   &kp MINUS  &kp EXCL          &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES  &kp HASH   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT      &trans
+&trans  &kp LESS_THAN  &kp COLON  &kp EQUAL  &kp GREATER_THAN  &kp UNDER           &kp BACKSLASH      &kp COMMA  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &trans
+&trans  &kp PIPE       &kp ASTRK  &kp SLASH  &kp AMPS          &kp TILDE           &kp PERCENT        &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &trans
+                                  &trans     &trans            &trans              &trans             &trans     &trans
             >;
         };
 
