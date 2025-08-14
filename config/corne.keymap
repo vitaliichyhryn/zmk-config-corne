@@ -63,10 +63,10 @@
 
         night {
             bindings = <
-&trans  &kp B            &kp F           &kp L               &kp K             &kp Q          &kp P            &kp G              &kp O                &kp U            &kp DOT           &trans
-&trans  &mt LEFT_META N  &mt LEFT_ALT S  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &kp M          &kp Y            &mt RIGHT_SHIFT C  &mt RIGHT_CONTROL A  &mt RIGHT_ALT E  &mt RIGHT_META I  &trans
-&trans  &kp X            &kp V           &kp J               &kp D             &kp Z          &kp APOS         &kp W              &kp FSLH             &kp SEMI         &kp COMMA         &trans
-                                         &lt 6 ESCAPE        &lt 2 R           &lt 3 ENTER    &lt 3 BACKSPACE  &lt 4 SPACE        &lt 5 TAB
+&trans  &kp B             &kp F            &kp L                &kp K              &kp Q          &kp P            &kp G               &kp O                 &kp U             &kp DOT            &trans
+&trans  &hrm LEFT_META N  &hrm LEFT_ALT S  &hrm LEFT_CONTROL H  &hrm LEFT_SHIFT T  &kp M          &kp Y            &hrm RIGHT_SHIFT C  &hrm RIGHT_CONTROL A  &hrm RIGHT_ALT E  &hrm RIGHT_META I  &trans
+&trans  &kp X             &kp V            &kp J                &kp D              &kp Z          &kp APOS         &kp W               &kp FSLH              &kp SEMI          &kp COMMA          &trans
+                                           &lt 6 ESCAPE         &lt 2 R            &lt 3 ENTER    &lt 3 BACKSPACE  &lt 4 SPACE         &lt 5 TAB
             >;
         };
 
