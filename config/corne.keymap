@@ -45,7 +45,16 @@
 &kp GRAVE          &kp Q        &kp W        &kp E         &kp R          &kp T          &kp Y        &kp U            &kp I         &kp O        &kp P           &trans
 &kp LEFT_BRACKET   &hrm LGUI A  &hrm LALT S  &hrm LCTRL D  &hrm LSHIFT F  &kp G          &kp H        &hrm RSHIFT J    &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMI  &kp SQT
 &kp RIGHT_BRACKET  &kp Z        &kp X        &kp C         &kp V          &kp B          &kp N        &kp M            &kp COMMA     &kp DOT      &kp FSLH        &kp BSLH
-                                             &kp ESC       &lt 1 TAB      &lt 2 SPACE    &lt 2 ENTER  &lt 3 BACKSPACE  &kp DELETE
+                                             &kp ESC       &lt 2 TAB      &lt 3 SPACE    &lt 3 ENTER  &lt 4 BACKSPACE  &kp DELETE
+            >;
+        };
+
+        night {
+            bindings = <
+&trans  &kp B            &kp F           &kp L               &kp K             &kp Q          &kp P            &kp G              &kp O                &kp U            &kp DOT           &trans
+&trans  &mt LEFT_META N  &mt LEFT_ALT S  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &kp M          &kp Y            &mt RIGHT_SHIFT C  &mt RIGHT_CONTROL A  &mt RIGHT_ALT E  &mt RIGHT_META I  &trans
+&trans  &kp X            &kp V           &kp J               &kp D             &kp Z          &kp APOS         &kp W              &kp FSLH             &kp SEMI         &kp COMMA         &trans
+                                         &kp ESCAPE          &lt 2 R           &lt 3 ENTER    &lt 3 BACKSPACE  &lt 4 SPACE        &kp TAB
             >;
         };
 
@@ -79,15 +88,6 @@
 &trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp N0  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        night {
-            bindings = <
-&trans  &kp B            &kp F           &kp L               &kp K             &kp Q    &kp P      &kp G              &kp O                &kp U            &kp DOT           &trans
-&trans  &mt LEFT_META N  &mt LEFT_ALT S  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &kp M    &kp Y      &mt RIGHT_SHIFT C  &mt RIGHT_CONTROL A  &mt RIGHT_ALT E  &mt RIGHT_META I  &trans
-&trans  &kp X            &kp V           &kp J               &kp D             &kp Z    &kp APOS   &kp W              &kp FSLH             &kp SEMI         &kp COMMA         &trans
-                                         &kp ESCAPE          &kp ENTER         &kp R    &kp SPACE  &kp BACKSPACE      &kp TAB
             >;
         };
     };
