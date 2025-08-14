@@ -27,7 +27,19 @@
 
         combo_delete {
             bindings = <&kp DELETE>;
-            key-positions = <16 40>;
+            key-positions = <16 39>;
+        };
+
+        combo_to_night {
+            bindings = <&to 1>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
+
+        combo_to_qwerty {
+            bindings = <&to 0>;
+            key-positions = <38 39>;
+            layers = <1>;
         };
     };
 
@@ -45,7 +57,7 @@
 &kp GRAVE          &kp Q        &kp W        &kp E         &kp R          &kp T          &kp Y        &kp U            &kp I         &kp O        &kp P           &trans
 &kp LEFT_BRACKET   &hrm LGUI A  &hrm LALT S  &hrm LCTRL D  &hrm LSHIFT F  &kp G          &kp H        &hrm RSHIFT J    &hrm RCTRL K  &hrm RALT L  &hrm RGUI SEMI  &kp SQT
 &kp RIGHT_BRACKET  &kp Z        &kp X        &kp C         &kp V          &kp B          &kp N        &kp M            &kp COMMA     &kp DOT      &kp FSLH        &kp BSLH
-                                             &kp ESC       &lt 2 TAB      &lt 3 SPACE    &lt 3 ENTER  &lt 4 BACKSPACE  &kp DELETE
+                                             &lt 6 ESCAPE  &lt 2 TAB      &lt 3 SPACE    &lt 3 ENTER  &lt 4 BACKSPACE  &lt 5 DELETE
             >;
         };
 
@@ -54,7 +66,7 @@
 &trans  &kp B            &kp F           &kp L               &kp K             &kp Q          &kp P            &kp G              &kp O                &kp U            &kp DOT           &trans
 &trans  &mt LEFT_META N  &mt LEFT_ALT S  &mt LEFT_CONTROL H  &mt LEFT_SHIFT T  &kp M          &kp Y            &mt RIGHT_SHIFT C  &mt RIGHT_CONTROL A  &mt RIGHT_ALT E  &mt RIGHT_META I  &trans
 &trans  &kp X            &kp V           &kp J               &kp D             &kp Z          &kp APOS         &kp W              &kp FSLH             &kp SEMI         &kp COMMA         &trans
-                                         &kp ESCAPE          &lt 2 R           &lt 3 ENTER    &lt 3 BACKSPACE  &lt 4 SPACE        &kp TAB
+                                         &lt 6 ESCAPE        &lt 2 R           &lt 3 ENTER    &lt 3 BACKSPACE  &lt 4 SPACE        &lt 5 TAB
             >;
         };
 
@@ -88,6 +100,24 @@
 &trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &kp N0  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        fun {
+            bindings = <
+&trans  &trans  &kp F7  &kp F8   &kp F9   &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F4  &kp F5   &kp F6   &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2   &kp F3   &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp F10  &kp F11  &kp F12    &trans  &trans  &trans
+            >;
+        };
+
+        media {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans            &trans             &trans           &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &kp K_PREVIOUS    &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans            &trans             &trans           &trans      &trans
+                        &trans  &trans  &trans    &kp K_MUTE  &kp K_PLAY_PAUSE  &trans
             >;
         };
     };
